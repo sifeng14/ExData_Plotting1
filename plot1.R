@@ -1,3 +1,6 @@
+#set direction
+getwd()
+setwd("C:/Users/sifeng/Documents/Explortory data analysis")
 ## Getting full dataset
 data_full <- read.csv("./Data/household_power_consumption.txt", header=T, sep=';', na.strings="?", 
                       nrows=2075259, check.names=F, stringsAsFactors=F, comment.char="", quote='\"')
